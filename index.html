@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Nhập môn Công nghệ số & AI | Nguyễn Đức Duy – VNU-UET</title>
+  <meta name="description" content="Portfolio học phần VNU1001 - Nhập môn Công nghệ số và Trí tuệ nhân tạo của Nguyễn Đức Duy, MSSV 25021693, Trường Đại học Công Nghệ - Đại học Quốc gia Hà Nội." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Particles background -->
+  <div id="particles-container"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">Portfolio</span>
+        <span class="logo-bracket">/&gt;</span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active" id="nav-home">Trang chủ</a></li>
+        <li><a href="#about" class="nav-link" id="nav-about">Giới thiệu</a></li>
+        <li><a href="#weeks" class="nav-link" id="nav-weeks">Bài tập</a></li>
+        <li><a href="#summary" class="nav-link" id="nav-summary">Tổng kết</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        VNU1001_E252011 &nbsp;·&nbsp; Học kỳ II, 2025–2026
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line">Nhập môn</span>
+        <span class="title-line gradient-text">Công nghệ số</span>
+        <span class="title-line">& Trí tuệ nhân tạo</span>
+      </h1>
+      <p class="hero-subtitle">
+        Portfolio ghi lại hành trình 6 tuần khám phá và thực hành các kỹ năng số thiết yếu trong thời đại AI
+      </p>
+      <div class="hero-info">
+        <div class="info-card" id="info-name">
+          <div class="info-icon">👤</div>
+          <div>
+            <span class="info-label">Sinh viên</span>
+            <span class="info-value">Nguyễn Đức Duy</span>
+          </div>
+        </div>
+        <div class="info-card" id="info-msv">
+          <div class="info-icon">🎓</div>
+          <div>
+            <span class="info-label">MSSV</span>
+            <span class="info-value">25021693</span>
+          </div>
+        </div>
+        <div class="info-card" id="info-school">
+          <div class="info-icon">🏛️</div>
+          <div>
+            <span class="info-label">Trường</span>
+            <span class="info-value">VNU – UET (ĐHCN)</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="#weeks" class="btn btn-primary" id="cta-explore">
+          <span>Khám phá Portfolio</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M7 17L17 7M17 7H7M17 7v10"/>
+          </svg>
+        </a>
+        <a href="#about" class="btn btn-ghost" id="cta-about">Về tôi</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="visual-ring ring-1"></div>
+      <div class="visual-ring ring-2"></div>
+      <div class="visual-ring ring-3"></div>
+      <div class="visual-center">
+        <div class="center-icon">🤖</div>
+      </div>
+      <div class="floating-badge fb-1">AI</div>
+      <div class="floating-badge fb-2">💡</div>
+      <div class="floating-badge fb-3">📊</div>
+      <div class="floating-badge fb-4">🔍</div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Giới thiệu</span>
+        <h2 class="section-title">Mục tiêu học phần</h2>
+        <p class="section-desc">Portfolio này được xây dựng nhằm thể hiện quá trình học tập, nghiên cứu và phát triển kỹ năng số trong 6 tuần học</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card" id="about-goal">
+          <div class="card-icon">🎯</div>
+          <h3>Mục tiêu</h3>
+          <p>Xây dựng portfolio số ghi lại hành trình 6 tuần học, thể hiện sự phát triển kỹ năng công nghệ số và AI một cách hệ thống, sáng tạo và chuyên nghiệp.</p>
+        </div>
+        <div class="about-card" id="about-method">
+          <div class="card-icon">🛠️</div>
+          <h3>Phương pháp</h3>
+          <p>Thực hành qua 6 nhiệm vụ thực tế: quản lý file, tìm kiếm thông tin, viết prompt AI, hợp tác trực tuyến, sáng tạo nội dung và đạo đức AI.</p>
+        </div>
+        <div class="about-card" id="about-eval">
+          <div class="card-icon">📋</div>
+          <h3>Rubric đánh giá</h3>
+          <p>Portfolio được đánh giá theo 8 tiêu chí: Thiết kế (3đ) + 6 nhiệm vụ hàng tuần (6đ) + Tổng kết (1đ) = <strong>10 điểm</strong> tổng.</p>
+        </div>
+        <div class="about-card" id="about-tech">
+          <div class="card-icon">💻</div>
+          <h3>Công nghệ sử dụng</h3>
+          <p>HTML · CSS · JavaScript · Python · Google Workspace · AI Tools (Gemini, ChatGPT, DALL-E) · Trello · Discord</p>
+        </div>
+      </div>
+
+      <!-- Rubric Table -->
+      <div class="rubric-section" id="rubric">
+        <h3 class="rubric-title">Rubric đánh giá chi tiết</h3>
+        <div class="rubric-table-wrapper">
+          <table class="rubric-table">
+            <thead>
+              <tr>
+                <th>STT</th>
+                <th>Tiêu chí</th>
+                <th>Điểm tối đa</th>
+                <th>Mức cao nhất</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="rubric-row highlight">
+                <td>1</td>
+                <td>Thiết kế &amp; Cấu trúc Portfolio</td>
+                <td><span class="score-badge score-3">3</span></td>
+                <td>Thiết kế sáng tạo, độc đáo; tích hợp đa phương tiện; tối ưu UX</td>
+              </tr>
+              <tr class="rubric-row">
+                <td>2</td>
+                <td>Nhiệm vụ 1: Quản lý tệp và thư mục</td>
+                <td><span class="score-badge score-1">1</span></td>
+                <td>Quy tắc đặt tên sáng tạo; mô tả thể hiện hiểu sâu về tổ chức dữ liệu</td>
+              </tr>
+              <tr class="rubric-row">
+                <td>3</td>
+                <td>Nhiệm vụ 2: Tìm kiếm &amp; Đánh giá thông tin</td>
+                <td><span class="score-badge score-1">1</span></td>
+                <td>Phân tích rất sâu sắc về chiến lược tìm kiếm và đánh giá</td>
+              </tr>
+              <tr class="rubric-row">
+                <td>4</td>
+                <td>Nhiệm vụ 3: Viết Prompt hiệu quả</td>
+                <td><span class="score-badge score-1">1</span></td>
+                <td>Áp dụng thành thạo kỹ thuật Prompt Engineering; so sánh sâu sắc</td>
+              </tr>
+              <tr class="rubric-row">
+                <td>5</td>
+                <td>Nhiệm vụ 4: Hợp tác trực tuyến</td>
+                <td><span class="score-badge score-1">1</span></td>
+                <td>Tích hợp tính năng nâng cao; tối ưu hóa quy trình làm việc nhóm</td>
+              </tr>
+              <tr class="rubric-row">
+                <td>6</td>
+                <td>Nhiệm vụ 5: Sáng tạo nội dung với AI</td>
+                <td><span class="score-badge score-1">1</span></td>
+                <td>Sản phẩm rất chuyên nghiệp; tận dụng tối đa các công cụ AI</td>
+              </tr>
+              <tr class="rubric-row">
+                <td>7</td>
+                <td>Nhiệm vụ 6: AI có trách nhiệm</td>
+                <td><span class="score-badge score-1">1</span></td>
+                <td>Bộ nguyên tắc chi tiết; đề xuất giải pháp cho thách thức đạo đức</td>
+              </tr>
+              <tr class="rubric-row highlight">
+                <td>8</td>
+                <td>Tổng kết &amp; Đánh giá bản thân</td>
+                <td><span class="score-badge score-1">1</span></td>
+                <td>Phân tích sâu sắc sự trưởng thành và cách áp dụng kỹ năng tương lai</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Weeks Section -->
+  <section class="weeks-section" id="weeks">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Bài tập hàng tuần</span>
+        <h2 class="section-title">6 Tuần học tập</h2>
+        <p class="section-desc">Nhấn vào từng tuần để xem chi tiết nội dung bài tập và kết quả thực hiện</p>
+      </div>
+
+      <div class="weeks-grid">
+
+        <!-- Week 1 -->
+        <div class="week-card" id="week-1-card" data-week="1">
+          <div class="week-header">
+            <div class="week-number">01</div>
+            <div class="week-meta">
+              <span class="week-label">Tuần 1</span>
+              <span class="week-score">1 điểm</span>
+            </div>
+            <div class="week-status done">✓</div>
+          </div>
+          <div class="week-icon-wrap">
+            <div class="week-icon">📁</div>
+          </div>
+          <h3 class="week-title">Quản lý Tệp &amp; Thư mục</h3>
+          <p class="week-desc">Thực hành tổ chức hệ thống file, tạo cấu trúc thư mục logic, đặt tên file theo quy tắc khoa học trên Windows.</p>
+          <div class="week-tags">
+            <span class="tag">File Explorer</span>
+            <span class="tag">Windows</span>
+            <span class="tag">Tổ chức dữ liệu</span>
+          </div>
+          <button class="week-btn" id="btn-week-1" onclick="openWeekModal(1)">
+            Xem chi tiết
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Week 2 -->
+        <div class="week-card" id="week-2-card" data-week="2">
+          <div class="week-header">
+            <div class="week-number">02</div>
+            <div class="week-meta">
+              <span class="week-label">Tuần 2</span>
+              <span class="week-score">1 điểm</span>
+            </div>
+            <div class="week-status done">✓</div>
+          </div>
+          <div class="week-icon-wrap">
+            <div class="week-icon">🔍</div>
+          </div>
+          <h3 class="week-title">Tìm kiếm &amp; Đánh giá thông tin</h3>
+          <p class="week-desc">Nghiên cứu tối ưu hóa thuật toán hồi quy logistic, sử dụng toán tử tìm kiếm nâng cao (site:, filetype:...) và đánh giá chất lượng nguồn thông tin khoa học.</p>
+          <div class="week-tags">
+            <span class="tag">Google Scholar</span>
+            <span class="tag">Machine Learning</span>
+            <span class="tag">Đánh giá nguồn</span>
+          </div>
+          <button class="week-btn" id="btn-week-2" onclick="openWeekModal(2)">
+            Xem chi tiết
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Week 3 -->
+        <div class="week-card" id="week-3-card" data-week="3">
+          <div class="week-header">
+            <div class="week-number">03</div>
+            <div class="week-meta">
+              <span class="week-label">Tuần 3</span>
+              <span class="week-score">1 điểm</span>
+            </div>
+            <div class="week-status done">✓</div>
+          </div>
+          <div class="week-icon-wrap">
+            <div class="week-icon">✍️</div>
+          </div>
+          <h3 class="week-title">Viết Prompt hiệu quả</h3>
+          <p class="week-desc">Thực hành kỹ thuật Prompt Engineering qua 3 tác vụ: tóm tắt tài liệu học thuật, giải thích khái niệm phức tạp, và tạo bộ câu hỏi ôn tập.</p>
+          <div class="week-tags">
+            <span class="tag">Prompt Engineering</span>
+            <span class="tag">ChatGPT</span>
+            <span class="tag">AI</span>
+          </div>
+          <button class="week-btn" id="btn-week-3" onclick="openWeekModal(3)">
+            Xem chi tiết
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Week 4 -->
+        <div class="week-card" id="week-4-card" data-week="4">
+          <div class="week-header">
+            <div class="week-number">04</div>
+            <div class="week-meta">
+              <span class="week-label">Tuần 4</span>
+              <span class="week-score">1 điểm</span>
+            </div>
+            <div class="week-status done">✓</div>
+          </div>
+          <div class="week-icon-wrap">
+            <div class="week-icon">🤝</div>
+          </div>
+          <h3 class="week-title">Hợp tác trực tuyến</h3>
+          <p class="week-desc">Sử dụng bộ công cụ Trello + Google Drive + Google Docs + Discord để quản lý dự án nhóm, phân công nhiệm vụ và theo dõi tiến độ theo thời gian thực.</p>
+          <div class="week-tags">
+            <span class="tag">Trello</span>
+            <span class="tag">Google Docs</span>
+            <span class="tag">Discord</span>
+          </div>
+          <button class="week-btn" id="btn-week-4" onclick="openWeekModal(4)">
+            Xem chi tiết
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Week 5 -->
+        <div class="week-card" id="week-5-card" data-week="5">
+          <div class="week-header">
+            <div class="week-number">05</div>
+            <div class="week-meta">
+              <span class="week-label">Tuần 5</span>
+              <span class="week-score">1 điểm</span>
+            </div>
+            <div class="week-status done">✓</div>
+          </div>
+          <div class="week-icon-wrap">
+            <div class="week-icon">🎨</div>
+          </div>
+          <h3 class="week-title">Sáng tạo nội dung với AI</h3>
+          <p class="week-desc">Tạo Infographic về "5 bước bảo vệ dữ liệu cá nhân" sử dụng Google Gemini, DALL-E 3 (Bing Image Creator) và Canva AI (Magic Design).</p>
+          <div class="week-tags">
+            <span class="tag">Gemini</span>
+            <span class="tag">DALL-E 3</span>
+            <span class="tag">Canva AI</span>
+          </div>
+          <button class="week-btn" id="btn-week-5" onclick="openWeekModal(5)">
+            Xem chi tiết
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Week 6 -->
+        <div class="week-card" id="week-6-card" data-week="6">
+          <div class="week-header">
+            <div class="week-number">06</div>
+            <div class="week-meta">
+              <span class="week-label">Tuần 6</span>
+              <span class="week-score">1 điểm</span>
+            </div>
+            <div class="week-status done">✓</div>
+          </div>
+          <div class="week-icon-wrap">
+            <div class="week-icon">⚖️</div>
+          </div>
+          <h3 class="week-title">AI có trách nhiệm</h3>
+          <p class="week-desc">Nghiên cứu chính sách AI trong học tập tại ĐHQGHN, phân tích đạo đức AI và xây dựng bộ nguyên tắc cá nhân khi sử dụng AI trong học tập.</p>
+          <div class="week-tags">
+            <span class="tag">Đạo đức AI</span>
+            <span class="tag">Chính sách</span>
+            <span class="tag">Nguyên tắc</span>
+          </div>
+          <button class="week-btn" id="btn-week-6" onclick="openWeekModal(6)">
+            Xem chi tiết
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- File Downloads -->
+      <div class="downloads-section" id="downloads">
+        <h3 class="downloads-title">📎 Tải xuống bài nộp</h3>
+        <div class="downloads-grid">
+          <a href="w1.docx" class="download-card" id="dl-w1" download>
+            <div class="dl-icon">📁</div>
+            <div class="dl-info">
+              <span class="dl-name">Tuần 1</span>
+              <span class="dl-type">DOCX</span>
+            </div>
+            <svg class="dl-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+            </svg>
+          </a>
+          <a href="w2.docx" class="download-card" id="dl-w2" download>
+            <div class="dl-icon">🔍</div>
+            <div class="dl-info">
+              <span class="dl-name">Tuần 2</span>
+              <span class="dl-type">DOCX</span>
+            </div>
+            <svg class="dl-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+            </svg>
+          </a>
+          <a href="w3.pdf" class="download-card" id="dl-w3" download>
+            <div class="dl-icon">✍️</div>
+            <div class="dl-info">
+              <span class="dl-name">Tuần 3</span>
+              <span class="dl-type">PDF</span>
+            </div>
+            <svg class="dl-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+            </svg>
+          </a>
+          <a href="w4.docx" class="download-card" id="dl-w4" download>
+            <div class="dl-icon">🤝</div>
+            <div class="dl-info">
+              <span class="dl-name">Tuần 4</span>
+              <span class="dl-type">DOCX</span>
+            </div>
+            <svg class="dl-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+            </svg>
+          </a>
+          <a href="w5.docx" class="download-card" id="dl-w5" download>
+            <div class="dl-icon">🎨</div>
+            <div class="dl-info">
+              <span class="dl-name">Tuần 5</span>
+              <span class="dl-type">DOCX</span>
+            </div>
+            <svg class="dl-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+            </svg>
+          </a>
+          <a href="w6.docx" class="download-card" id="dl-w6" download>
+            <div class="dl-icon">⚖️</div>
+            <div class="dl-info">
+              <span class="dl-name">Tuần 6</span>
+              <span class="dl-type">DOCX</span>
+            </div>
+            <svg class="dl-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Summary Section -->
+  <section class="summary-section" id="summary">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Tổng kết</span>
+        <h2 class="section-title">Đánh giá bản thân</h2>
+        <p class="section-desc">Nhìn lại hành trình 6 tuần, những gì đã học được và định hướng phát triển trong tương lai</p>
+      </div>
+
+      <div class="summary-grid">
+        <div class="summary-block" id="summary-learned">
+          <div class="summary-icon">💡</div>
+          <h3>Kiến thức đã học</h3>
+          <ul class="summary-list">
+            <li>Tổ chức hệ thống file và thư mục theo chuẩn khoa học</li>
+            <li>Kỹ thuật tìm kiếm thông tin nâng cao với Google Search Operators</li>
+            <li>Prompt Engineering cho các tác vụ học tập đa dạng</li>
+            <li>Quản lý dự án nhóm với công cụ số (Trello, Discord, Google Workspace)</li>
+            <li>Sáng tạo nội dung với AI Generative (Gemini, DALL-E 3, Canva AI)</li>
+            <li>Đạo đức và trách nhiệm khi sử dụng AI trong học tập</li>
+          </ul>
+        </div>
+
+        <div class="summary-block" id="summary-skills">
+          <div class="summary-icon">⚡</div>
+          <h3>Kỹ năng phát triển</h3>
+          <div class="skills-bars">
+            <div class="skill-bar-item">
+              <span class="skill-name">Tư duy phân tích & đánh giá thông tin</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <span class="skill-name">Sử dụng công cụ AI hiệu quả</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <span class="skill-name">Làm việc nhóm & hợp tác trực tuyến</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <span class="skill-name">Sáng tạo nội dung số</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <span class="skill-name">Tư duy đạo đức công nghệ</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="summary-block" id="summary-challenges">
+          <div class="summary-icon">🚀</div>
+          <h3>Thách thức & Bài học</h3>
+          <ul class="summary-list">
+            <li><strong>Thách thức 1:</strong> Đánh giá độ tin cậy của nguồn thông tin trực tuyến khi có quá nhiều dữ liệu mâu thuẫn nhau</li>
+            <li><strong>Thách thức 2:</strong> Viết prompt hiệu quả đòi hỏi nhiều vòng lặp thử nghiệm và tinh chỉnh</li>
+            <li><strong>Bài học:</strong> AI là công cụ hỗ trợ, không thay thế tư duy phê phán và khả năng sáng tạo của con người</li>
+          </ul>
+        </div>
+
+        <div class="summary-block" id="summary-future">
+          <div class="summary-icon">🌟</div>
+          <h3>Định hướng tương lai</h3>
+          <ul class="summary-list">
+            <li>Tiếp tục học sâu về Machine Learning và Data Science</li>
+            <li>Ứng dụng Prompt Engineering vào nghiên cứu khoa học</li>
+            <li>Xây dựng thói quen sử dụng AI có trách nhiệm và minh bạch</li>
+            <li>Phát triển kỹ năng lãnh đạo dự án số trong môi trường nhóm</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Principles -->
+      <div class="principles-section" id="principles">
+        <h3 class="principles-title">⚖️ Bộ nguyên tắc cá nhân khi dùng AI</h3>
+        <div class="principles-grid">
+          <div class="principle-item">
+            <span class="principle-num">01</span>
+            <p>Luôn <strong>kiểm chứng thông tin</strong> do AI cung cấp từ nguồn đáng tin cậy trước khi sử dụng</p>
+          </div>
+          <div class="principle-item">
+            <span class="principle-num">02</span>
+            <p><strong>Minh bạch</strong> khi sử dụng AI – khai báo rõ trong bài nộp hoặc báo cáo</p>
+          </div>
+          <div class="principle-item">
+            <span class="principle-num">03</span>
+            <p>Sử dụng AI để <strong>hỗ trợ</strong>, không để thay thế quá trình tư duy và học tập độc lập</p>
+          </div>
+          <div class="principle-item">
+            <span class="principle-num">04</span>
+            <p>Không chia sẻ <strong>thông tin cá nhân</strong> hoặc dữ liệu nhạy cảm với AI chatbots</p>
+          </div>
+          <div class="principle-item">
+            <span class="principle-num">05</span>
+            <p>Nhận thức rõ về <strong>thiên kiến (bias)</strong> có thể có trong các mô hình AI</p>
+          </div>
+          <div class="principle-item">
+            <span class="principle-num">06</span>
+            <p>Luôn giữ <strong>trách nhiệm đạo đức</strong> – AI không thể thay thế phán đoán đạo đức của con người</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-text">Portfolio</span>
+          <span class="logo-bracket">/&gt;</span>
+          <p>Nhập môn Công nghệ số & AI – VNU1001_E252011</p>
+        </div>
+        <div class="footer-info">
+          <p><strong>Nguyễn Đức Duy</strong> · MSSV: 25021693</p>
+          <p>Trường Đại học Công Nghệ – ĐHQGHN</p>
+          <p>Học kỳ II, năm học 2025–2026</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Nguyễn Đức Duy · Đại học Quốc gia Hà Nội</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Overlay -->
+  <div class="modal-overlay" id="modal-overlay" onclick="closeModal()">
+    <div class="modal" id="modal" onclick="event.stopPropagation()">
+      <button class="modal-close" id="modal-close-btn" onclick="closeModal()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
