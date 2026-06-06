@@ -10,7 +10,7 @@ const weekData = {
     subtitle: 'Nhiệm vụ 1 – Tuần 1',
     desc: 'Thực hành toàn diện về tổ chức hệ thống file và thư mục trên Windows, bao gồm tạo cấu trúc thư mục khoa học, đặt tên file theo quy tắc nhất quán, và thực hành các thao tác cơ bản với tệp tin.',
     tasks: [
-      'Mở File Explorer và truy cập ổ đĩa D:, tạo thư mục gốc ThucHanh_NguyenDucDuy',
+      'Mở File Explorer và truy cập ổ đĩa D:, tạo thư mục gốc ThucHanh_VuPhuongTrang',
       'Tạo file Ghichu.txt trong thư mục gốc, sau đó đổi tên thành GhiChuQuanTrong.txt',
       'Tạo thư mục con TaiLieu bên trong thư mục gốc',
       'Thực hành Sao chép (Copy): Copy GhiChuQuanTrong.txt vào TaiLieu',
