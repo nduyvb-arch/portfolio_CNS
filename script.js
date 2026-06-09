@@ -25,8 +25,8 @@ const weekData = {
       'Xóa vĩnh viễn (Shift+Delete) không thể phục hồi – luôn kiểm tra kỹ trước khi thực hiện',
     ],
     tags: ['File Explorer', 'Windows OS', 'Tổ chức dữ liệu', 'Quản lý file'],
-    file: 'w1.docx',
-    fileType: 'DOCX',
+    file: 'w1.pdf',
+    fileType: 'PDF',
   },
   2: {
     icon: '🔍',
@@ -48,8 +48,8 @@ const weekData = {
       'Tìm kiếm trên Google Scholar cho phép lọc theo năm, số trích dẫn để ưu tiên paper quan trọng',
     ],
     tags: ['Google Scholar', 'Machine Learning', 'Logistic Regression', 'Search Operators', 'CRAAP'],
-    file: 'w2.docx',
-    fileType: 'DOCX',
+    file: 'w2.pdf',
+    fileType: 'PDF',
   },
   3: {
     icon: '✍️',
@@ -98,8 +98,8 @@ const weekData = {
       'Discord với các kênh riêng biệt giúp thông tin có tổ chức, dễ tìm lại khi cần',
     ],
     tags: ['Trello', 'Google Drive', 'Google Docs', 'Discord', 'Quản lý dự án'],
-    file: 'w4.docx',
-    fileType: 'DOCX',
+    file: 'w4.pdf',
+    fileType: 'PDF',
   },
   5: {
     icon: '🎨',
@@ -122,8 +122,8 @@ const weekData = {
       'AI là công cụ hỗ trợ sáng tạo, không thay thế khiếu thẩm mỹ và định hướng sáng tạo của người dùng',
     ],
     tags: ['Gemini', 'DALL-E 3', 'Canva AI', 'Infographic', 'Thiết kế số', 'An ninh mạng'],
-    file: 'w5.docx',
-    fileType: 'DOCX',
+    file: 'w5.pdf',
+    fileType: 'PDF',
   },
   6: {
     icon: '⚖️',
@@ -146,8 +146,8 @@ const weekData = {
       'Sử dụng AI minh bạch và có trích dẫn là cách duy nhất để duy trì tính học thuật trung thực',
     ],
     tags: ['Đạo đức AI', 'Chính sách ĐHQGHN', 'Trung thực học thuật', 'AI Bias', 'Trách nhiệm'],
-    file: 'w6.docx',
-    fileType: 'DOCX',
+    file: 'w6.pdf',
+    fileType: 'PDF',
   },
 };
 
@@ -186,7 +186,7 @@ function openWeekModal(week) {
     </div>
 
     <div class="modal-download">
-      <a href="${data.file}" class="modal-dl-btn" download>
+      <a href="${data.file}" class="modal-dl-btn" target="_blank">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
         </svg>
